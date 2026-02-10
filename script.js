@@ -43,7 +43,7 @@ function resizeYesButton() {
 function generateMessage(noCount) {
   const messages = [
     "No",
-    "Yeke taknak?",
+    "Yeke tak sayang",
     "Elele yelatuu",
     "Alaa janganla camnii :(",
     "Merajuk kang :(",
@@ -60,4 +60,5 @@ function changeImage(image) {
 
 function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
+
 }
