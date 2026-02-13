@@ -27,7 +27,7 @@ noButton.addEventListener("click", function () {
 });
 
 function handleYesClick() {
-  titleElement.innerHTML = "Yeayyy!! :3";
+  titleElement.innerHTML = "Yeayyy!! :3 HAPPY VALENTINES DAY SAYANGGG❤";
   buttonsContainer.classList.add("hidden");
   changeImage("Yes");
 }
@@ -62,3 +62,4 @@ function updateNoButtonText() {
   noButton.innerHTML = generateMessage(noCount);
 
 }
+
